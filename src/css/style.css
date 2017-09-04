@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+body {
+    background-color: #0c0c0c; 
+    color: #fcfcfc;
+    font-family: Lato, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caution {
+    padding-top: 15%;
+    height: 50px;
+}
+
+#hi {
+    font-size: 54px;
+    font-weight: 900;
+}
+
+#name {
+    color: #ff2d55;
+    font-weight: 400;
+}
+
+#cons {
+    margin-bottom: -10px;
+}
+
+.social {
+    height: 30px;
+    margin: 5px;
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+  
+.pulse {
+    animation-name: pulse;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 1.15, 1.15);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+.fadeInDownName {
+    animation-name: fadeInDown;
+    animation-delay: 2s;
+  }
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-delay: 4s;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+  animation-delay: 6s;
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+}
+
+  
+
+  
+
